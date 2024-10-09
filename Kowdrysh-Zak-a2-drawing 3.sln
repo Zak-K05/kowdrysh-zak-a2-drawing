@@ -53,8 +53,29 @@ namespace Game10003
         }
     }
 }
+// The namespace your code is in.
+namespace Game10003
+{
+    /// <summary>
+    ///     Your game code goes inside this class!
+    /// </summary>
+    public class Game : GameBase
+    {
+        private const bool V = true;
+        int value = 27;
 
 
+        public void Setup()
+        {
+            {
+                // Set up window
+                Window.SetTitle("Mouse Follow Demo");
+                Window.SetSize(400, 400);
+            }
+        }
+    }
+
+}
 
 
 
