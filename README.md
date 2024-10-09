@@ -1,0 +1,1 @@
+# kowdrysh-zak-a2-drawing
